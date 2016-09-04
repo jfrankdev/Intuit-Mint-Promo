@@ -38,10 +38,7 @@ footer #footer-above{
           align-items:flex-start;
   margin:0 auto; 
 }
-#tweets{
-text-align:center;
 
-}
 #banner{
   background-color:#000000 !important;
   height:80px;
@@ -55,7 +52,11 @@ text-align:center;
 #banner img{height:50px;margin:15px 0;
 }
 
+.tweet3 {
+  position: relative;
+margin-left: 800px;
 
+}
 
 
 
