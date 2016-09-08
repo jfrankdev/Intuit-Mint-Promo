@@ -1,3 +1,7 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto';
+@import 'https://fonts.googleapis.com/css?family=Baloo+Tamma';
+
+
 body{ /*sidebars*/
   margin:0;
   padding:0;
@@ -58,7 +62,18 @@ margin-left: 800px;
 
 }
 
+.whitetext {
+/*font-family: "Roboto", Verdana, sans-serif;*/
+font-family: 'Baloo Tamma', cursive;
+color:white;
+font-size: 200%;
+font-weight : 10;
+text-align: center;
+}
 
+#toptext {
+margin-top: 100px;
+}
 
 
 nav{
@@ -87,12 +102,7 @@ nav{
 }
 
 
-
-
-
-
-
-main >*:not(.scroll-top){margin:0 auto;box-shadow:0px 0px 2px 1px rgba(0, 0, 0, 0.2);
+main >*:not(.scroll-top){margin:0 auto;/*box-shadow:0px 0px 2px 1px rgba(0, 0, 0, 0.2);*/
 }
 main header{color:black;text-align:right;padding:70px 10% 50px;-webkit-box-align:end;-webkit-align-items:flex-end;-ms-flex-align:end;-ms-grid-row-align:flex-end;align-items:flex-end;-webkit-align-content:space-around;-ms-flex-line-pack:distribute;align-content:space-around;
 }
