@@ -66,15 +66,59 @@ margin-left: 800px;
 /*font-family: "Roboto", Verdana, sans-serif;*/
 font-family: 'Baloo Tamma', cursive;
 color:white;
-font-size: 200%;
+font-size: 400%;
 font-weight : 10;
 text-align: center;
 }
+
+ body > main > #portfolio > ul {
+  list-style-type: none;
+    margin: 0;
+
+    /*
+    padding: 0;
+    */
+
+    }
+
+    body > main > #portfolio > ul > li:first-child {
+      margin-left: 500px;
+      width:20px;
+
+    }
+
+     body > main > #portfolio > ul > li:nth-child(2) {
+      margin-left: 180px;
+         padding:10px;
+  
+
+
+    }
+
+
+        body > main > #portfolio > ul > li:last-child {
+     margin-left: 500px;
+    }
+
+    #portfolio img{display:block; 
+}
+
+
 
 #toptext {
 margin-top: 100px;
 }
 
+.baloo{
+  font-family: 'Baloo Tamma', cursive;
+}
+
+
+
+
+.pull-down {
+  margin-top: 50px;
+}
 
 nav{
   font-size:13px;
@@ -138,7 +182,13 @@ main section#contact>div>div p{margin:60px auto 0;max-width:700px;
 
 
 
-
+.followers {
+  font-family: 'Baloo Tamma', cursive;
+color:white;
+font-size: 200%;
+font-weight : 10;
+text-align: center;
+}
 
 
 
@@ -146,12 +196,12 @@ main section#contact>div>div p{margin:60px auto 0;max-width:700px;
 }
 #portfolio .grid li{margin:20px;max-width:600px;
 }
+
 @media(min-width:1023px){
-  #portfolio .grid li{max-width:420px;
+  #portfolio .grid li{max-width:420px; 
   }
 }
-#portfolio img{max-width:100%;height:auto;display:block;
-}
+
 form{
   width:80%;
 }

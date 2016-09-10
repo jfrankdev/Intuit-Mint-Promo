@@ -15,7 +15,7 @@
     
     
   </head>
-<h1 id= "toptext" class="whitetext bounce animated"> See your complete financial picture. </h1>
+<h1 id= "toptext" class="followers bounce animated"> See your complete financial picture. </h1>
   <body>
 
 <header id="banner" class="navbar navbar-default navbar-fixed-top">
@@ -38,11 +38,20 @@
 <img src="images/mintlogo1.png" alt=""/>
   </header>
   <!-- Gallery Grid Section-->
-  <section id="portfolio">
-    <h2>Portfolio</h2>
-    <hr class="star-dark"/>
-    <ul class="grid">
-      <li><img src="images/unnamed.png" alt=""/></li>
+  <section id="portfolio" class="baloo">
+    <h2>Your financial life, in one place and easy to understand.</h2>
+  
+    <ul>
+      
+      <p class= "col-sm-6 pull-down"><b>Custom tips and savings</b><br>Because Mint knows what’s going on with your money, we can help you find savings along the way. We analyze thousands of checking, savings, credit card, brokerage, CD and IRA rollover offers—then make recommendations that will save you the most based on your lifestyle and goals.</p>
+      <li><img src="images/custom-tips-and-advice.jpg" alt="" height="303" width="479"/></li>
+      
+      <p class= "col-sm-6 pull-down"><b>Stay up-to-date  as it happens</b><br>Mint automatically updates and  categorizes your information in real time. From your bank accounts and credit cards to retirement accounts and more–we’ll crunch the numbers as they happen so you always know where you stand.</p>
+      <li><img src="images/stay-up-to-date-as-it-happens.jpg" alt="" height="303" width="479"/></li>
+      
+      <p class= "col-sm-6 pull-down"><b>Simple and free to set up</b><br>It’s free and easy to get started, and we connect to almost every US financial institution connected to the internet. In just minutes, you’ll see where your money is going and get ideas on how to stretch it farther.</p>
+      <li><img src="images/your-financial-life-in-one-place.png" alt="" height="330.39" width="535.83"/></li>
+      
     </ul>
   </section>
   <!-- Twitter Section-->
@@ -58,7 +67,8 @@
 
 
 	
-	<p class = "whitetext"><?php include 'littleApp.php'; echo "$num";?> people follow us on twitter. Join them!</p> 
+	<p class = "whitetext">
+  <?php include 'littleApp.php'; echo "$num";?><br><div class="followers"> people follow us on twitter. Join them!</p></div>
 
  </div>        
      
@@ -68,23 +78,20 @@
 </main>
 <!-- Footer-->
 <footer>
-  <div id="footer-above">
+  <div id="footer-above" class="baloo">
+    
     <div>
-      <h3>About this page</h3>
-      <p><i class="fa fa-fw fa-coffee"></i> and <i class="fa fa-fw fa-music"></i><br/> <a href=""></a>.</p>
-    </div>
-    <div>
-      <h3>Around the Web</h3>
+      <h3>Intuit Around the Web</h3>
       <ul>
         <li><a href= class="button social"><i class="fa fa-fw fa-linkedin"></i></a></li>
-        <li><a href= class="button social"><i class="fa fa-fw fa-github"></i></a></li>
+        <li><a href= class="button social"><i class="fa fa-fw fa-facebook"></i></a></li>
         <li><a href= class="button social"><i class="fa fa-fw fa-twitter"></i></a></li>
-        <li><a href= title="" class="button social"><i class="fa fa-fw fa-flickr"></i></a></li>
+        <li><a href= class="button social"><i class="fa fa-fw fa-instagram"></i></a></li>
       </ul>
     </div>
   </div>
-  <div id="footer-below">Mint © 
-    <script>document.write(new Date().getFullYear())</script>. All Rights Reversed
+  <div id="footer-below" class="baloo">Mint © 
+    <script>document.write(new Date().getFullYear())</script>. All Rights Reserved.
   </div>
 </footer>
 <!-- <aside id="html5badge"><img src="http://www.w3.org/html/logo/badge/html5-badge-v-css3-graphics-semantics.png" width="38" height="170" alt="HTML5 Powered with CSS3 / Styling, Graphics, 3D &amp; Effects, and Semantics" title="HTML5 Powered with CSS3 / Styling, Graphics, 3D &amp; Effects, and Semantics"></aside>-->
