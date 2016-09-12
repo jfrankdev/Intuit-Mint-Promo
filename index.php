@@ -24,12 +24,14 @@
     <nav id="navbar" role="navigation" class="collapse navbar-collapse">
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#top" class="scrollable"></a></li>
-        <li><a href="#portfolio" class="scrollable">Why Mint?</a></li>
-        <li><a href="#tweets" class="scrollable">Twitter</a></li>
+        <li><a href="#portfolioscroll" class="scrollable">Why Mint?</a></li>
+        <li><a href="#tweetscroll" class="scrollable">Twitter</a></li>
       </ul>
     </nav>
   </div>
 </header>
+        <div id="portfolioscroll"></div>
+        <div id="tweetscroll"></div>
 
 <!-- end header-->
 
@@ -43,11 +45,11 @@
   
     <ul>
       
-      <p class= "col-sm-6 pull-down"><b>Custom tips and savings</b><br>Because Mint knows what’s going on with your money, we can help you find savings along the way. We analyze thousands of checking, savings, credit card, brokerage, CD and IRA rollover offers—then make recommendations that will save you the most based on your lifestyle and goals.</p>
+      <p class= "col-sm-7 pull-down"><b>Custom tips and savings</b><br>Because Mint knows what’s going on with your money, we can help you find savings along the way. We analyze thousands of checking, savings, credit card, brokerage, CD and IRA rollover offers—then make recommendations that will save you the most based on your lifestyle and goals.</p>
       <li><img src="images/custom-tips-and-advice.jpg" alt="" height="303" width="479"/></li>
       
-      <p class= "col-sm-6 pull-down"><b>Stay up-to-date  as it happens</b><br>Mint automatically updates and  categorizes your information in real time. From your bank accounts and credit cards to retirement accounts and more–we’ll crunch the numbers as they happen so you always know where you stand.</p>
-      <li><img src="images/stay-up-to-date-as-it-happens.jpg" alt="" height="303" width="479"/></li>
+      <p class= "col-sm-7 pull-down pull-right"><b>Stay up-to-date  as it happens</b><br>Mint automatically updates and  categorizes your information in real time. From your bank accounts and credit cards to retirement accounts and more–we’ll crunch the numbers as they happen so you always know where you stand.</p>
+      <li><img class="pull-right" src="images/stay-up-to-date-as-it-happens.jpg" alt="" height="303" width="479"/></li>
       
       <p class= "col-sm-6 pull-down"><b>Simple and free to set up</b><br>It’s free and easy to get started, and we connect to almost every US financial institution connected to the internet. In just minutes, you’ll see where your money is going and get ideas on how to stretch it farther.</p>
       <li><img src="images/your-financial-life-in-one-place.png" alt="" height="330.39" width="535.83"/></li>
@@ -81,12 +83,12 @@
   <div id="footer-above" class="baloo">
     
     <div>
-      <h3>Intuit Around the Web</h3>
+      <h3>Intuit® Around the Web</h3>
       <ul>
-        <li><a href= class="button social"><i class="fa fa-fw fa-linkedin"></i></a></li>
-        <li><a href= class="button social"><i class="fa fa-fw fa-facebook"></i></a></li>
-        <li><a href= class="button social"><i class="fa fa-fw fa-twitter"></i></a></li>
-        <li><a href= class="button social"><i class="fa fa-fw fa-instagram"></i></a></li>
+        <li><a href="https://www.linkedin.com/company/intuit" class="button social" target="_blank"><i class="fa fa-fw fa-linkedin"></i></a></li>
+        <li><a href="https://www.facebook.com/intuit" class="button social" target="_blank"><i class="fa fa-fw fa-facebook"></i></a></li>
+        <li><a href="https://twitter.com/Intuit" class="button social" target="_blank"><i class="fa fa-fw fa-twitter"></i></a></li>
+        <li><a href="https://www.instagram.com/intuit" class="button social" target="_blank"><i class="fa fa-fw fa-instagram"></i></a></li>
       </ul>
     </div>
   </div>

@@ -113,6 +113,20 @@ margin-top: 100px;
   font-family: 'Baloo Tamma', cursive;
 }
 
+#portfolioscroll{
+    position: absolute;
+    left: 100px;
+    top: 550px;
+    bottom: 500px;
+}
+
+#tweetscroll{
+      position: absolute;
+    left: 100px;
+    top: 1620px;
+    bottom: 500px;
+}
+
 
 
 
@@ -254,8 +268,7 @@ footer h3{margin-bottom:30px;color:#000000;
   -webkit-transition:all .3s ease-in-out;
   transition:all .3s ease-in-out;
 }
-.button:hover{border:solid 2px #000000;color:#000000;background:#000000;
-}
+
 .scroll-top{
   z-index:1049;
   position:fixed; 
