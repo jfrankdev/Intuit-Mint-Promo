@@ -1,6 +1,6 @@
 <?php
 require_once('TwitterAPIExchange.php');
-/** Set access tokens here - see: https://dev.twitter.com/apps/ **/
+/** Tokens and keys are to be reset before deployment **/
 $settings = array(
 'oauth_access_token' => "772958203470417920-zF1B9apK8CRXCpnhQnHln5TX14KPb00",
 'oauth_access_token_secret' => "mC8N5aZMvFMjXy5WgkrNgOFfTAFmJU3bXuazeb1ojkt3c",
