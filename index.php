@@ -44,14 +44,13 @@
     <h2>Your financial life, in one place and easy to understand.</h2>
   
     <ul>
-      
-      <p class= "col-sm-7 pull-down"><b>Custom tips and savings</b><br>Because Mint knows what’s going on with your money, we can help you find savings along the way. We analyze thousands of checking, savings, credit card, brokerage, CD and IRA rollover offers—then make recommendations that will save you the most based on your lifestyle and goals.</p>
+      <p class= "col-sm-5 pull-down"><b>Custom tips and savings</b><br>Because Mint knows what’s going on with your money, we can help you find savings along the way. We analyze thousands of checking, savings, credit card, brokerage, CD and IRA rollover offers—then make recommendations that will save you the most based on your lifestyle and goals.</p>
       <li><img src="images/custom-tips-and-advice.jpg" alt="" height="303" width="479"/></li>
       
-      <p class= "col-sm-7 pull-down pull-right"><b>Stay up-to-date  as it happens</b><br>Mint automatically updates and  categorizes your information in real time. From your bank accounts and credit cards to retirement accounts and more–we’ll crunch the numbers as they happen so you always know where you stand.</p>
-      <li><img class="pull-right" src="images/stay-up-to-date-as-it-happens.jpg" alt="" height="303" width="479"/></li>
+      <p class= "col-sm-5 pull2"><b>Stay up-to-date  as it happens</b><br>Mint automatically updates and  categorizes your information in real time. From your bank accounts and credit cards to retirement accounts and more–we’ll crunch the numbers as they happen so you always know where you stand.</p>
+      <li><img src="images/stay-up-to-date-as-it-happens.jpg" alt="" height="303" width="479"/></li>
       
-      <p class= "col-sm-6 pull-down"><b>Simple and free to set up</b><br>It’s free and easy to get started, and we connect to almost every US financial institution connected to the internet. In just minutes, you’ll see where your money is going and get ideas on how to stretch it farther.</p>
+      <p class= "col-sm-5 pull3"><b>Simple and free to set up</b><br>It’s free and easy to get started, and we connect to almost every US financial institution connected to the internet. In just minutes, you’ll see where your money is going and get ideas on how to stretch it farther.</p>
       <li><img src="images/your-financial-life-in-one-place.png" alt="" height="330.39" width="535.83"/></li>
       
     </ul>

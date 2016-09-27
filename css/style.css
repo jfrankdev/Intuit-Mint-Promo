@@ -71,6 +71,11 @@ font-weight : 10;
 text-align: center;
 }
 
+p {
+   font: 15px arial, sans-serif;
+}
+
+
  body > main > #portfolio > ul {
   list-style-type: none;
     margin: 0;
@@ -82,22 +87,21 @@ text-align: center;
     }
 
     body > main > #portfolio > ul > li:first-child {
-      margin-left: 500px;
+      margin-left: 700px;
       width:20px;
 
     }
 
      body > main > #portfolio > ul > li:nth-child(2) {
-      margin-left: 180px;
+      margin-left: 700px;
          padding:10px;
-  
-
-
     }
 
 
+
+
         body > main > #portfolio > ul > li:last-child {
-     margin-left: 500px;
+     margin-left: 700px;
     }
 
     #portfolio img{display:block; 
@@ -131,8 +135,24 @@ margin-top: 100px;
 
 
 .pull-down {
+      position: absolute;
+    left: 200px;
   margin-top: 50px;
 }
+
+.pull2 {
+      position: absolute;
+    left: 600px;
+  margin-top: 50px;
+}
+
+
+.pull3 {
+      position: absolute;
+    left: 200px;
+  margin-top: 50px;
+}
+
 
 nav{
   font-size:13px;
