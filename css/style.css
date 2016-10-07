@@ -85,24 +85,36 @@ p {
     */
 
     }
-
+    /*
     body > main > #portfolio > ul > li:first-child {
       margin-left: 700px;
       width:20px;
 
+    }*/
+
+         body > main > #portfolio > ul > img:nth-of-type(1) {
+      margin-left: 650px;
+         padding:10px;
     }
 
-     body > main > #portfolio > ul > li:nth-child(2) {
-      margin-left: 700px;
+
+     body > main > #portfolio > ul > img:nth-of-type(2) {
+      margin-left: 150px;
+         padding:10px;
+    }
+
+         body > main > #portfolio > ul > img:last-of-type {
+      margin-left: 650px;
          padding:10px;
     }
 
 
 
 
+/*
         body > main > #portfolio > ul > li:last-child {
      margin-left: 700px;
-    }
+    }*/
 
     #portfolio img{display:block; 
 }
@@ -136,20 +148,20 @@ margin-top: 100px;
 
 .pull-down {
       position: absolute;
-    left: 200px;
+    left: 180px;
   margin-top: 50px;
 }
 
 .pull2 {
       position: absolute;
-    left: 600px;
+    left: 685px;
   margin-top: 50px;
 }
 
 
 .pull3 {
       position: absolute;
-    left: 200px;
+    left: 180px;
   margin-top: 50px;
 }
 
