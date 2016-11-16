@@ -7,7 +7,7 @@ $(window).on('resize', function() {
       wHeight	= 0,
       wScrollCurrent = 0,
       wScrollBefore	= 0,
-      wScrollDiff	= 0; 
+      wScrollDiff	= 0;
       window.addEventListener('scroll', function () {
         // Hide the displayed menu. If you want to scroll, you're obviously not interested in the options.
         $('.navbar-collapse').collapse('hide');
@@ -25,11 +25,11 @@ $(window).on('resize', function() {
               element.style.top = '0px';
           } // scrolled up; element slides in
             else if(wScrollDiff > 0) {
-              element.style.top = (elTop > 0? 0 : elTop) + 'px'; 
+              element.style.top = (elTop > 0? 0 : elTop) + 'px';
           } // scrolled down
             else if(wScrollDiff < 0) {
               // scrolled to the very bottom; element slides in
-              if(wScrollCurrent + wHeight >= dHeight - elHeight) {  
+              if(wScrollCurrent + wHeight >= dHeight - elHeight) {
                 element.style.top = ( ( elTop = wScrollCurrent + wHeight - dHeight ) < 0 ? elTop : 0 ) + 'px';
               } // scrolled down; element slides out
                 else { element.style.top = ( Math.abs( elTop ) > elHeight ? -elHeight : elTop ) + 'px'; }
@@ -64,4 +64,3 @@ $(function() {$('body').on('click', 'a.scrollable', function(event) {
   event.preventDefault();
   });
 });
-
