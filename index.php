@@ -52,8 +52,8 @@
 
       <p class= "col-sm-4 pull3"><b>Simple and free to set up</b><br>It’s free and easy to get started, and we connect to almost every US financial institution connected to the internet. In just minutes, you’ll see where your money is going and get ideas on how to stretch it farther.</p>
       <img src="images/your-financial-life-in-one-place.png" alt="" height="330.39" width="535.83"/>
-
     </ul>
+
   </section>
   <!-- Twitter Section-->
 
