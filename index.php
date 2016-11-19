@@ -69,7 +69,7 @@
 </div>
 </div>
 
-	<p class = "whitetext">2000<div class="followers"> people follow us on twitter. Join them!</p></div>
+	<div class="followers">2000 <br> people follow us on twitter. Join them!</div>
 
 
 
