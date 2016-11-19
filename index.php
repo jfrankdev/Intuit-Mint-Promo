@@ -57,7 +57,7 @@
   </section>
   <!-- Twitter Section-->
 
-  		<div id="tweets">
+  		<div id="tweets" class="boxed">
 <div id="lefttweet">
 <blockquote class="twitter-tweet tw-align-left" data-conversation="none" data-lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/mint">@mint</a> nevermind, your excellent support team helped me out!</p>&mdash; Sudil M. (@Sudsington) <a href="https://twitter.com/Sudsington/status/771042246451982336">August 31, 2016</a></blockquote>
 </div>
@@ -67,12 +67,11 @@
 <div id="centertweet">
 <blockquote class="twitter-tweet tw-align-center" data-width="300" data-lang="en"><p lang="en" dir="ltr">Do I have any followers who use <a href="https://twitter.com/mint">@mint</a> for tracking spending habits and have at least a few years of data? Preferably OS X users.</p>&mdash; Josh Clayton (@joshuaclayton) <a href="https://twitter.com/joshuaclayton/status/770933447053410304">August 31, 2016</a></blockquote>
 </div>
+</div>
+
+	<p class = "whitetext">2000<div class="followers"> people follow us on twitter. Join them!</p></div>
 
 
-	<p class = "whitetext">
-  2000<br><div class="followers"> people follow us on twitter. Join them!</p></div>
-
- </div>
 
 
   <!-- Scroll to Top Button (Only supposed to be visible on small and small screen sizes)-->
