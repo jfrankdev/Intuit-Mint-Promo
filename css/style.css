@@ -181,7 +181,11 @@ top: 10px;
   height: 280px;
 }
 
-
+@media (max-width: 1210px) {
+#twitter-widget-0{
+display: inline;
+float: none;
+}}
 
 #tweetscroll{
     position: absolute;
@@ -194,8 +198,9 @@ top: 10px;
 }
 @media (max-width: 1210px) {
 #lefttweet{
-  left: 20%;
+  left: 24%;
 }}
+
 @media (max-width: 768px) {
 #lefttweet{
 margin-right: 50%;}}
@@ -220,7 +225,7 @@ margin-right: 50%;}}
 }
 @media (max-width: 1102px) {
   .pull-down {
-    left: -2%;
+    left: 0%;
     position: relative;
   }
 }
@@ -232,7 +237,7 @@ margin-right: 50%;}}
 }
 @media (max-width: 1102px) {
   .pull2 {
-    left: -2%;
+    left: 0%;
     position: relative;
     top: 10px;
   }
@@ -246,7 +251,7 @@ margin-right: 50%;}}
 }
 @media (max-width: 1023px) {
   .pull3 {
-      left: -2%;
+      left: 0%;
       position: relative;
       top: 10px;
       }}

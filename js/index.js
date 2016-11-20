@@ -1,3 +1,27 @@
+// Center tweet on resize
+$( window ).load(function() {
+    updateContainer();
+    $(window).resize(function() {
+        updateContainer();
+    });
+});
+function updateContainer() {
+    var $containerHeight = $(window).width();
+    if ($containerHeight <= 1210) {
+        $('#twitter-widget-0').css({
+            "display": "inline",
+            "float": "none"
+        });
+    }
+    if ($containerHeight > 1210) {
+        $('#twitter-widget-0').css({
+            "display": "static",
+            "float": "left"
+        });
+    }
+}
+
+
 $(window).on('resize', function() {
   'use strict';
   var element	= document.querySelector('#banner'),
@@ -39,6 +63,8 @@ $(window).on('resize', function() {
           else element.style.top = '0px';
       });
 }).resize();
+
+
 
 // Floating label headings for the contact form
 $(function() {$("body")
