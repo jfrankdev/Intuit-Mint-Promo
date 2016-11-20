@@ -2,6 +2,7 @@
 <html >
   <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <title></title>
     <title></title>
 
@@ -51,7 +52,7 @@
       <img src="images/stay-up-to-date-as-it-happens.jpg" alt="" height="303" width="479"/>
 
       <p class= "col-sm-4 pull3"><b>Simple and free to set up</b><br>It’s free and easy to get started, and we connect to almost every US financial institution connected to the internet. In just minutes, you’ll see where your money is going and get ideas on how to stretch it farther.</p>
-      <img src="images/your-financial-life-in-one-place.png" alt="" height="330.39" width="535.83"/>
+      <img src="images/your-financial-life-in-one-place.png" alt="" height="303" width="479"/>
     </ul>
 
   </section>
@@ -69,7 +70,7 @@
 </div>
 </div>
 
-	<div class="followers">2000 <br> people follow us on twitter. Join them!</div>
+	<div class="followers"><span style="font-size:90px;">2000</span> <br> people follow us on twitter. Join them!</div>
 
 
 

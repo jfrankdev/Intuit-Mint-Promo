@@ -107,7 +107,7 @@ p {
       margin-left: 50%;
          padding:10px;
     }
-    @media(max-width:768px){
+    @media(max-width:1023px){
       body > main > #portfolio > ul > img:nth-of-type(1) {
         margin-left: auto;
         margin-right: auto;
@@ -121,7 +121,7 @@ p {
       margin-left: 11%;
          padding:10px;
     }
-    @media (max-width: 768px) {
+    @media (max-width: 1023px) {
       body > main > #portfolio > ul > img:nth-of-type(2) {
         margin-left: auto;
         margin-right: auto;
@@ -134,7 +134,7 @@ p {
       margin-left: 50%;
          padding:10px;
     }
-    @media (max-width: 768px) {
+    @media (max-width: 1023px) {
       body > main > #portfolio > ul > img:last-of-type {
         margin-left: auto;
         margin-right: auto;
@@ -177,7 +177,7 @@ top: 10px;
     bottom: 500px;
 }
 .boxed {
-  border: 2px solid green ;
+  border: 2px solid transparent;
   height: 280px;
 }
 
@@ -220,7 +220,7 @@ margin-right: 50%;}}
 }
 @media (max-width: 1102px) {
   .pull-down {
-    left: 5%;
+    left: -2%;
     position: relative;
   }
 }
@@ -232,7 +232,7 @@ margin-right: 50%;}}
 }
 @media (max-width: 1102px) {
   .pull2 {
-    left: 5%;
+    left: -2%;
     position: relative;
     top: 10px;
   }
@@ -244,7 +244,7 @@ margin-right: 50%;}}
     left: 15%;
   margin-top: 50px;
 }
-@media (max-width: 768px) {
+@media (max-width: 1023px) {
   .pull3 {
       left: -2%;
       position: relative;
