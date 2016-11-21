@@ -1,27 +1,3 @@
-// Center tweet on resize
-$( window ).load(function() {
-    updateContainer();
-    $(window).resize(function() {
-        updateContainer();
-    });
-});
-function updateContainer() {
-    var $containerHeight = $(window).width();
-    if ($containerHeight <= 1210) {
-        $('#twitter-widget-0').css({
-            "display": "inline",
-            "float": "none"
-        });
-    }
-    if ($containerHeight > 1210) {
-        $('#twitter-widget-0').css({
-            "display": "static",
-            "float": "left"
-        });
-    }
-}
-
-
 $(window).on('resize', function() {
   'use strict';
   var element	= document.querySelector('#banner'),
@@ -89,4 +65,66 @@ $(function() {$('body').on('click', 'a.scrollable', function(event) {
   $('html, body').stop().animate({scrollTop: $($anchor.attr('href')).offset().top},1500,'easeInOutExpo');
   event.preventDefault();
   });
+});
+
+
+
+
+// Center tweet on resize not onload
+$( document ).ready(function() {
+     setTimeout(updateContainer(), 5000);
+    $(window).resize(function() {
+        updateContainer();
+    });
+
+function updateContainer() {
+    var $containerWidth = $(window).width();
+    if ($containerWidth <= 1210) {
+        $('#twitter-widget-0').css({
+            "display": "inline",
+            "float": "none",
+            "min-width": "20px"
+        });
+    }
+    if ($containerWidth > 1210) {
+        $('#twitter-widget-0').css({
+            "display": "static",
+            "float": "left",
+            "min-width": "220px"
+        });
+        $('#twitter-widget-2').css({
+            "width": "30px"
+        });
+    }
+}
+});
+// Center tweet onload not on resize
+
+var test2 = function updateContainer() {
+      var $containerWidth = $(window).width();
+      if ($containerWidth <= 1210) {
+          $('#twitter-widget-0').css({
+              "display": "inline",
+              "float": "none",
+              "min-width": "20px"
+          });
+      }
+      if ($containerWidth > 1210) {
+          $('#twitter-widget-0').css({
+              "display": "static",
+              "float": "left",
+              "min-width": "220px"
+          });
+          $('#twitter-widget-2').css({
+              "width": "30px"
+          });
+      }
+  }
+
+$( document ).ready(function() {
+     setTimeout(test2, 5000);
+    $(window).resize(function() {
+        test2;
+    });
+
 });
