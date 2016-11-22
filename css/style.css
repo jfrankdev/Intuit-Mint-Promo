@@ -96,12 +96,6 @@ p {
     padding: 0;
 
     }
-    /*
-    body > main > #portfolio > ul > li:first-child {
-      margin-left: 700px;
-      width:20px;
-
-    }*/
 
          body > main > #portfolio > ul > img:nth-of-type(1) {
       margin-left: 50%;
@@ -147,10 +141,6 @@ p {
        height: auto;
    }
 
-/*
-        body > main > #portfolio > ul > li:last-child {
-     margin-left: 700px;
-    }*/
 
     #portfolio img{display:block;
 }
@@ -178,7 +168,7 @@ top: 10px;
 }
 .boxed {
   border: 2px solid transparent;
-  height: 280px;
+  height: 230px;
 }
 
 @media (max-width: 748px) {
@@ -201,17 +191,28 @@ float: none;
   left: 24%;
   margin-right: 50%;
 }}
+@media screen and (max-width: 1251px) and (min-width: 1147px)  {
+#lefttweet{
+  left: 29%;
+  margin-right: auto;
+  margin-left: auto;
+}}
+@media screen and (max-width: 1147px) and (min-width: 1083px)  {
+#lefttweet{
+  left: 28%;
+  margin-right: auto;
+  margin-left: auto;
+}}
+@media screen and (max-width: 1083px) and (min-width: 1077px)  {
+#lefttweet{
+  left: 27%;
+  margin-right: auto;
+  margin-left: auto;
+}}
 
 @media (max-width: 768px) {
 #lefttweet{
 margin-right: 50%;}}
-/*
-#centertweet{
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
-}
-*/
 
 #twitter-widget-2{
   width: 20px;
@@ -229,7 +230,7 @@ margin-right: 50%;}}
 
 .pull-down {
       position: absolute;
-    left: 15%;
+    left: 12%;
   margin-top: 50px;
 }
 @media (max-width: 1102px) {
@@ -255,7 +256,7 @@ margin-right: 50%;}}
 
 .pull3 {
       position: absolute;
-    left: 15%;
+    left: 12%;
   margin-top: 50px;
 }
 @media (max-width: 1102px) {

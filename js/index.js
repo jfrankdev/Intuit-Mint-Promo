@@ -68,8 +68,6 @@ $(function() {$('body').on('click', 'a.scrollable', function(event) {
 });
 
 
-
-
 // Center tweet on resize not onload
 $( document ).ready(function() {
      setTimeout(updateContainer(), 5000);
@@ -98,8 +96,8 @@ function updateContainer() {
     }
 }
 });
-// Center tweet onload not on resize
 
+// Center tweet onload not on resize
 var test2 = function updateContainer() {
       var $containerWidth = $(window).width();
       if ($containerWidth <= 1210) {
