@@ -70,9 +70,7 @@
 </div>
 </div>
 
-	<div class="followers"><span style="font-size:90px;">2000</span> <br> people follow us on twitter. Join them!</div>
-
-
+	<div class="followers"><span style="font-size:90px;"><?php include 'littleApp.php'; echo "$num";?></span><br><div class="followers"> people follow us on twitter. Join them!</p></div>
 
 
   <!-- Scroll to Top Button (Only supposed to be visible on small and small screen sizes)-->

@@ -2,10 +2,7 @@
 require_once('TwitterAPIExchange.php');
 /** Tokens and keys are to be reset before deployment **/
 $settings = array(
-'oauth_access_token' => "",
-'oauth_access_token_secret' => "",
-'consumer_key' => "",
-'consumer_secret' => ""
+
 );
 $url = "https://api.twitter.com/1.1/statuses/user_timeline.json";
 $requestMethod = "GET";
