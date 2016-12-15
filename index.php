@@ -74,8 +74,10 @@
 </div>
 </div>
 
-	<div class="followers"><span style="font-size:90px;"><?php include 'littleApp.php'; echo "$num";?></span><br><div class="followers"> people follow us on twitter. Join them!</p></div>
-
+	<div class="followers"><span style="font-size:90px;"><?php include 'littleApp.php'; echo "$num";?></span><br>
+  </div><div class="followers2"> people follow us on twitter. 
+  <a href="https://twitter.com/mint" style="color:white;text-decoration:underline;" target="_blank">Join them!
+  </a></p></div>
 
   <!-- Scroll to Top Button (Only supposed to be visible on small and small screen sizes)-->
   <div class="scroll-top"><a href="#top" class="button scrollable"><i class="fa fa-chevron-up"></i></a></div>
